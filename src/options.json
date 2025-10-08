@@ -4,7 +4,7 @@
   "properties": {
     "injectType": {
       "description": "Allows to setup how styles will be injected into DOM.",
-      "link": "https://github.com/webpack-contrib/style-loader#injecttype",
+      "link": "https://github.com/webpack/style-loader#injecttype",
       "enum": [
         "styleTag",
         "singletonStyleTag",
@@ -17,27 +17,27 @@
     },
     "attributes": {
       "description": "Adds custom attributes to tag.",
-      "link": "https://github.com/webpack-contrib/style-loader#attributes",
+      "link": "https://github.com/webpack/style-loader#attributes",
       "type": "object"
     },
     "insert": {
       "description": "Inserts `<style>`/`<link>` at the given position.",
-      "link": "https://github.com/webpack-contrib/style-loader#insert",
+      "link": "https://github.com/webpack/style-loader#insert",
       "type": "string"
     },
     "base": {
       "description": "Sets module ID base for DLLPlugin.",
-      "link": "https://github.com/webpack-contrib/style-loader#base",
+      "link": "https://github.com/webpack/style-loader#base",
       "type": "number"
     },
     "esModule": {
       "description": "Use the ES modules syntax.",
-      "link": "https://github.com/webpack-contrib/css-loader#esmodule",
+      "link": "https://github.com/webpack/css-loader#esmodule",
       "type": "boolean"
     },
     "styleTagTransform": {
       "description": "Transform tag and css when insert 'style' tag into the DOM",
-      "link": "https://github.com/webpack-contrib/style-loader#styleTagTransform",
+      "link": "https://github.com/webpack/style-loader#styleTagTransform",
       "type": "string"
     }
   },

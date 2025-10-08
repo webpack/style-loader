@@ -37,7 +37,7 @@ or
 pnpm add -D style-loader
 ```
 
-It's recommended to combine `style-loader` with the [`css-loader`](https://github.com/webpack-contrib/css-loader)
+It's recommended to combine `style-loader` with the [`css-loader`](https://github.com/webpack/css-loader)
 
 Then add the loader to your `webpack` configuration. For example:
 
@@ -125,7 +125,7 @@ const divElement = document.createElement("div");
 divElement.className = styles["my-class"];
 ```
 
-All local variables (class names) are exported as named exports. To achieve this behaviour you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack-contrib/css-loader).
+All local variables (class names) are exported as named exports. To achieve this behaviour you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack/css-loader).
 
 **webpack.config.js**
 
@@ -188,7 +188,7 @@ const divElement = document.createElement("div");
 divElement.className = styles["my-class"];
 ```
 
-All local variables (class names) are exported as named exports. To achieve this behaviour, you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack-contrib/css-loader).
+All local variables (class names) are exported as named exports. To achieve this behaviour, you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack/css-loader).
 
 **webpack.config.js**
 
@@ -263,7 +263,7 @@ const divElement = document.createElement("div");
 divElement.className = myClass;
 ```
 
-All local variables (class names) are exported as named exports. To achieve this behaviour, you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack-contrib/css-loader).
+All local variables (class names) are exported as named exports. To achieve this behaviour, you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack/css-loader).
 
 **webpack.config.js**
 
@@ -340,7 +340,7 @@ const divElement = document.createElement("div");
 divElement.className = myClass;
 ```
 
-All local variables (class names) are exported as named exports. To achieve this behaviour, you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack-contrib/css-loader).
+All local variables (class names) are exported as named exports. To achieve this behaviour, you also have to set up the `modules` option for `css-loader`. For more information, consult the `css-loader` [`documentation`](https://github.com/webpack/css-loader).
 
 **webpack.config.js**
 
@@ -741,7 +741,7 @@ module.exports = {
 type base = number;
 ```
 
-This setting is primarily used as a workaround for [CSS clashes](https://github.com/webpack-contrib/style-loader/issues/163) when using one or more [DllPlugin](https://robertknight.me.uk/posts/webpack-dll-plugins/)s.
+This setting is primarily used as a workaround for [CSS clashes](https://github.com/webpack/style-loader/issues/163) when using one or more [DllPlugin](https://robertknight.me.uk/posts/webpack-dll-plugins/)s.
 `base` allows you to prevent either the _app_'s CSS (or _DllPlugin2_'s css) from overwriting _DllPlugin1_'s CSS by specifying a CSS module ID base that is greater than the range used by _DllPlugin1_ e.g.:
 
 **webpack.dll1.config.js**
@@ -1277,10 +1277,10 @@ If you're new here, please take a moment to review our contributing guidelines b
 [npm-url]: https://npmjs.com/package/style-loader
 [node]: https://img.shields.io/node/v/style-loader.svg
 [node-url]: https://nodejs.org
-[tests]: https://github.com/webpack-contrib/style-loader/workflows/style-loader/badge.svg
-[tests-url]: https://github.com/webpack-contrib/style-loader/actions
-[cover]: https://codecov.io/gh/webpack-contrib/style-loader/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack-contrib/style-loader
+[tests]: https://github.com/webpack/style-loader/workflows/style-loader/badge.svg
+[tests-url]: https://github.com/webpack/style-loader/actions
+[cover]: https://codecov.io/gh/webpack/style-loader/branch/main/graph/badge.svg
+[cover-url]: https://codecov.io/gh/webpack/style-loader
 [discussion]: https://img.shields.io/github/discussions/webpack/webpack
 [discussion-url]: https://github.com/webpack/webpack/discussions
 [size]: https://packagephobia.now.sh/badge?p=style-loader

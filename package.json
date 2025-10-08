@@ -5,9 +5,9 @@
   "keywords": [
     "webpack"
   ],
-  "homepage": "https://github.com/webpack-contrib/style-loader",
-  "bugs": "https://github.com/webpack-contrib/style-loader/issues",
-  "repository": "webpack-contrib/style-loader",
+  "homepage": "https://github.com/webpack/style-loader",
+  "bugs": "https://github.com/webpack/style-loader/issues",
+  "repository": "webpack/style-loader",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/webpack"
@@ -25,7 +25,7 @@
     "prebuild": "npm run clean",
     "build": "cross-env NODE_ENV=production babel src -d dist --copy-files",
     "postbuild": "npm run validate:runtime",
-    "commitlint": "commitlint --from=master",
+    "commitlint": "commitlint --from=main",
     "security": "npm audit --production",
     "lint:prettier": "prettier --cache --list-different .",
     "lint:js": "eslint --cache .",
