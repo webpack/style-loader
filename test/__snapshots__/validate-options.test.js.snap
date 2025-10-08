@@ -5,14 +5,14 @@ exports[`validate options should throw an error on the "attributes" option with 
  - options.attributes should be an object:
    object { … }
    -> Adds custom attributes to tag.
-   -> Read more at https://github.com/webpack-contrib/style-loader#attributes"
+   -> Read more at https://github.com/webpack/style-loader#attributes"
 `;
 
 exports[`validate options should throw an error on the "esModule" option with "true" value 1`] = `
 "Invalid options object. Style Loader has been initialized using an options object that does not match the API schema.
  - options.esModule should be a boolean.
    -> Use the ES modules syntax.
-   -> Read more at https://github.com/webpack-contrib/css-loader#esmodule"
+   -> Read more at https://github.com/webpack/css-loader#esmodule"
 `;
 
 exports[`validate options should throw an error on the "injectType" option with "unknown" value 1`] = `
@@ -20,28 +20,28 @@ exports[`validate options should throw an error on the "injectType" option with 
  - options.injectType should be one of these:
    "styleTag" | "singletonStyleTag" | "autoStyleTag" | "lazyStyleTag" | "lazySingletonStyleTag" | "lazyAutoStyleTag" | "linkTag"
    -> Allows to setup how styles will be injected into DOM.
-   -> Read more at https://github.com/webpack-contrib/style-loader#injecttype"
+   -> Read more at https://github.com/webpack/style-loader#injecttype"
 `;
 
 exports[`validate options should throw an error on the "insert" option with "true" value 1`] = `
 "Invalid options object. Style Loader has been initialized using an options object that does not match the API schema.
  - options.insert should be a string.
    -> Inserts \`<style>\`/\`<link>\` at the given position.
-   -> Read more at https://github.com/webpack-contrib/style-loader#insert"
+   -> Read more at https://github.com/webpack/style-loader#insert"
 `;
 
 exports[`validate options should throw an error on the "styleTagTransform" option with "[]" value 1`] = `
 "Invalid options object. Style Loader has been initialized using an options object that does not match the API schema.
  - options.styleTagTransform should be a string.
    -> Transform tag and css when insert 'style' tag into the DOM
-   -> Read more at https://github.com/webpack-contrib/style-loader#styleTagTransform"
+   -> Read more at https://github.com/webpack/style-loader#styleTagTransform"
 `;
 
 exports[`validate options should throw an error on the "styleTagTransform" option with "true" value 1`] = `
 "Invalid options object. Style Loader has been initialized using an options object that does not match the API schema.
  - options.styleTagTransform should be a string.
    -> Transform tag and css when insert 'style' tag into the DOM
-   -> Read more at https://github.com/webpack-contrib/style-loader#styleTagTransform"
+   -> Read more at https://github.com/webpack/style-loader#styleTagTransform"
 `;
 
 exports[`validate options should throw an error on the "unknown" option with "/test/" value 1`] = `
