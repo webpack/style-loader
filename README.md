@@ -834,7 +834,7 @@ module.exports = {
 ### Recommended
 
 For `production` builds, it's recommended to extract the CSS from your bundle to enable parallel loading of CSS/JS resources later on.
-This can be achieved by using the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin), because it creates separate CSS files.
+This can be achieved by using the [mini-css-extract-plugin](https://github.com/webpack/mini-css-extract-plugin), because it creates separate CSS files.
 For `development` mode (including `webpack-dev-server`), you can use `style-loader`, because it injects CSS into the DOM using multiple `<style></style>` tags and works faster.
 
 > [!WARNING]
