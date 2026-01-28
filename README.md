@@ -13,7 +13,11 @@
 [![discussion][discussion]][discussion-url]
 [![size][size]][size-url]
 
-# style-loader
+# style-loader 
+`style-loader` injects CSS into the DOM at runtime by adding `<style>` tags.
+It is commonly used in development for fast rebuilds and hot reloading.
+For production builds, extracting CSS into separate files is usually preferred.
+
 
 Inject CSS into the DOM.
 
