@@ -15,6 +15,15 @@
 
 # style-loader
 
+> [!WARNING]
+>
+> **`style-loader` is deprecated** — webpack injects CSS into the DOM itself and no longer needs it.
+>
+> [`experiments.css`](https://webpack.js.org/configuration/experiments/#experimentscss) defaults to `"auto"` since webpack 5.109.0. The [`exportType: "style"`](https://webpack.js.org/guides/native-css/#output-modes-exporttype) parser option injects a `<style>` element from the webpack runtime, covering the default `injectType: "styleTag"`; the extraction `injectType: "linkTag"` is the built-in default.
+> Read the [Native CSS guide](https://webpack.js.org/guides/native-css/) and follow its [migration guide](https://webpack.js.org/guides/native-css/#5-replace-style-loader), or run `npx codemod @webpack/css-plugins-to-native-css` to do most of the migration automatically.
+>
+> `attributes`, `insert` and `styleTagTransform` have no native equivalent — keep `style-loader` if you rely on them.
+
 Inject CSS into the DOM.
 
 ## Getting Started

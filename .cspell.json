@@ -11,7 +11,8 @@
     "camelcase",
     "EAAE",
     "Unse",
-    "memfs"
+    "memfs",
+    "codemod"
   ],
 
   "ignorePaths": [
