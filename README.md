@@ -15,6 +15,14 @@
 
 # style-loader
 
+> [!WARNING]
+>
+> **`style-loader` is deprecated** — webpack injects CSS into the DOM itself and no longer needs it.
+>
+> Read the [Native CSS guide](https://webpack.js.org/guides/native-css/) and follow its [migration guide](https://webpack.js.org/guides/native-css/#5-replace-style-loader), which lists what the built-in support covers.
+>
+> Existing setups keep working: built-in CSS support stays off for any `.css` rule that already has a loader, so you can migrate one rule at a time.
+
 Inject CSS into the DOM.
 
 ## Getting Started
